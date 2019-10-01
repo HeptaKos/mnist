@@ -6,4 +6,4 @@ CNN
 
 RNN
 ---
-1.LSTM RNN model by tensorflow.</br></br>
+1.LSTM RNN model by tensorflow.Add regularization and dropout</br></br>
