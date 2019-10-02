@@ -7,3 +7,4 @@ CNN
 RNN
 ---
 1.LSTM RNN model by tensorflow.Add regularization and dropout</br></br>
+2.Keras RNN model by tensorflow.It is only a demo.
