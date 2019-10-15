@@ -3,6 +3,7 @@ import numpy as np
 from tensorflow import keras
 from tensorflow.examples.tutorials.mnist import input_data
 
+
 def Conv2d(x, w):
     return tf.nn.conv2d(x, w, [1, 1, 1, 1], padding='SAME')
 

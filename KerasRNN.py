@@ -1,7 +1,6 @@
 import tensorflow as tf
 import tensorflow.python.keras as keras
 from tensorflow.examples.tutorials.mnist import input_data
-
 (train_images, train_labels), (test_images, test_labels) = keras.datasets.fashion_mnist.load_data()
 
 def new_model():

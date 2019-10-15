@@ -47,7 +47,7 @@ def rnn(x, weights, biases):
 
 
 pred = rnn(x_image, weights, biases)
-loss = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=y_value, logits=pred))
+
 loss = tf.add_to_collection("loss", loss)
 loss = tf.add_n(tf.get_collection("loss"))
 train_step = tf.train.AdamOptimizer(0.0001).minimize(loss)
